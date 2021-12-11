@@ -1,0 +1,9 @@
+body {
+    background: linear-gradient(90deg, #823333 0%, #865858 100%);
+}
+
+h2 {
+    text-align: center;
+    color: #2d2d2a;
+    filter: drop-shadow(5px 5px 10px #000);
+}

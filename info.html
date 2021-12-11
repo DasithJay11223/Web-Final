@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel='stylesheet' href='normalize.css' type='text/css' media='screen'>
+<script src ="info.js"> </script>
+</head>
+<body>
+    <title>Subasingha jayawardanage Dasith Anuka</title>
+
+<h2>JavaScript Validation</h2>
+
+<form name="signup" action="https://httpbin.org/post" onsubmit="return validateForm()" method="post">
+
+ First Name: <input type="text" name="firstname" style="text-transform: capitalize;" pattern="[A-Za-z]">
+
+ Last Name: <input type="text" name="lastname" style="text-transform: capitalize;" pattern="[A-Za-z]">
+
+ <p>Education Status:</p>
+ <input type="radio" id="age1" name="Education" value="30">
+ <label for="ed1">Graduated</label><br>
+
+ <input type="radio" id="age2" name="Education" value="60">
+ <label for="ed2">Currently Enrolled</label><br>  
+
+ <input type="radio" id="age3" name="Education" value="100">
+ <label for="ed3">Did Not Graduate</label><br><br>
+
+ Email: <input type="email" name="email" >
+
+ Age: <input type="number" name="age" min="18" max="60">
+
+  <input type="hidden" id="lastName" name="lastName" value="Yourname">
+
+  <input type="hidden" id="studentId" name="studentId" value="54689 ">
+
+ Password : <input type="password" name="password">
+
+ Confirm Password : <input type="password" name="cpassword">
+ <input type="submit" value="Submit">
+</form>
+
+</body>
